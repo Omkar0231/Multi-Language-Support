@@ -50,6 +50,19 @@ python manage.py runserver
 ### Answer:
 ##### Yes. I have used it.
 
+# My Views
+### Pros:
+##### 1. This method solves the problem of migrating everytime we add a new language.
+##### 2. It increases the readability of the data in the Admin Panel. We can also easily update the required field. 
+
+### Cons
+##### 1. There might be a case where the json data can be corrupted or changed by running custom queries.
+##### 2. Querying on such fields is not an easier task. For Example: Getting all the objet whose json_field has 'en' language null.
+
+### My Personal view
+##### * This method is very useful. Because we always doesn't want to query as the 2 point above in cons. Mostly this data is for the Front End Applications's to show the data. 
+##### * This solves the problem of migrating the database everytime we add a new language.
+
 
 ## Time Spent : 10 - 11 hrs
 
